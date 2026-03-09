@@ -1,0 +1,22 @@
+Feature: User Login
+As a user, I want to log in to the application, so that I can access my account. 
+GeeksforGeeks
+GeeksforGeeks
+Scenario 1: Successful Login
+Tests positive behavior with valid credentials. 
+Katalon
+Katalon
+Given the user is on the login page, And has a valid account.
+When the user enters valid credentials and clicks "Login".
+Then they are redirected to the dashboard with a welcome message. 
+www.well-architected-guide.com
+www.well-architected-guide.com
+Scenario 2: Login with Invalid Credentials
+Tests negative behavior for incorrect input. 
+Testomat.io
+Testomat.io
+Given the user is on the login page.
+When the user enters incorrect credentials and clicks "Login".
+Then they remain on the page and see an "Invalid email or password" error. 
+www.well-architected-guide.com
+www.well-architected-guide.com
